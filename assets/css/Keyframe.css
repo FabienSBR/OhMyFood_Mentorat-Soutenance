@@ -1,4 +1,4 @@
-/* Animation de remplissage du coeur */
+/* Remplissage des coeurs */
 @keyframes anim-heart {
     0% {
       transform: scale(0);
@@ -7,7 +7,7 @@
       transform: scale(1);
     }
   }
-  /* Animation de rotation du cercle du loader */
+  /* Loader_cercle */
   @keyframes rotation {
     0% {
       transform: rotate(0deg);
@@ -16,7 +16,7 @@
       transform: rotate(360deg);
     }
   }
-  /* Animation d'apparition du loader */
+  /* Loader_apparition */
   @keyframes anim-loader {
     0% {
       opacity: 1;
@@ -37,7 +37,7 @@
       height: 0px;
     }
   }
-  /* Animation d'apparition du menu */
+  /* Déroulement des menus */
   @keyframes card-hide {
     0% {
       transform: translateX(0px);
